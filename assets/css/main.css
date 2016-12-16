@@ -1623,11 +1623,7 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #000;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1640,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #000;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3399,7 +3395,7 @@
 		#main button,
 		#main .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dddddd;
+			box-shadow: inset 0 0 0 1px #ddd;
 			color: #636363 !important;
 		}
 
