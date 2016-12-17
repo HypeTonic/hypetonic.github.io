@@ -47,6 +47,21 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	
+	.medium {
+	  color:#02b875;
+	  text-decoration:none !important;
+	}
+
+	.twitter {
+	  color:#1da1f2;
+	  text-decoration:none !important;
+	}
+
+	.facebook {
+	  color:#3b5998;
+	  text-decoration:none !important;
+	}
 
 /* Box Model */
 
@@ -1702,14 +1717,6 @@
 	}
 
 		p.content {
-			-moz-columns: 20em 2;
-			-webkit-columns: 20em 2;
-			-ms-columns: 20em 2;
-			columns: 20em 2;
-			-moz-column-gap: 2em;
-			-webkit-column-gap: 2em;
-			-ms-column-gap: 2em;
-			column-gap: 2em;
 			text-align: justify;
 		}
 
